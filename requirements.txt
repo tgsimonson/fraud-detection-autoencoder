@@ -1,0 +1,19 @@
+# dependencies for fraud_detection.py (python 3.11 to 3.13)
+# install with: pip install -r requirements.txt
+
+# outlier detection library that provides the autoencoder
+pyod==3.6.6
+
+# deep learning backend pyod uses for its autoencoder
+torch==2.14.1
+
+# data loading, preprocessing, metrics, and charts
+numpy==2.4.6
+pandas==3.0.6
+scikit-learn==1.9.1
+scipy==1.17.1
+matplotlib==3.11.2
+
+# pyod imports these at runtime
+numba==0.68.0
+tqdm==4.70.1

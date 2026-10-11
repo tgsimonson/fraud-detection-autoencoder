@@ -1,0 +1,24 @@
+# virtual environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# python bytecode and caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# kaggle dataset is 150 mb, too large for the repo; download it into data/
+data/*.csv
+
+# assignment write-up goes to the lms, not the repo
+*.docx
+*.pdf
+~$*
+
+# os and editor files
+.DS_Store
+.idea/
+.vscode/
+*.log

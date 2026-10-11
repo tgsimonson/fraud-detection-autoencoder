@@ -1,0 +1,22 @@
+PyOD AutoEncoder: credit card fraud detection
+Test transactions: 85,443 (148 fraud, 0.1732%)
+
+ROC AUC:            0.9356
+Average precision:  0.4996
+
+Confusion matrix at the model threshold
+  True negatives  (legitimate, passed):   85,153
+  False positives (legitimate, flagged):  142
+  False negatives (fraud, missed):        58
+  True positives  (fraud, caught):        90
+
+Classification report
+              precision    recall  f1-score   support
+
+  Legitimate     0.9993    0.9983    0.9988     85295
+       Fraud     0.3879    0.6081    0.4737       148
+
+    accuracy                         0.9977     85443
+   macro avg     0.6936    0.8032    0.7363     85443
+weighted avg     0.9983    0.9977    0.9979     85443
+
